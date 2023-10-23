@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.teampotato.thereisnothingtobeafraidofanymore.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "thereisnothingtobeafraidofanymore.refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "SkullItemMixin",
+    "SkullPlayerBlockMixin",
+    "SkullTileEntityMixin"
+  ],
+  "client": [
+    "SkullTileEntityRendererMixin"
+  ]
+}
